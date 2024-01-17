@@ -38,7 +38,7 @@ h1 {
  }
 
  main {
-    height: 100vh;
+    /* height: 100vh; */
     background-color: #fafafa;
  }
 
@@ -121,7 +121,7 @@ h1 {
 
  .ultimos-trabajos {
    text-align: center;
-   margin-top: 50px;
+   margin-bottom: 32px;
  }
  .btn{
    padding: 10px 10px;
