@@ -1,135 +1,148 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
 }
 
 .navbar {
    background-color: #979f9fba;
    padding: 2%;
 }
+
 .navbar a {
    text-decoration: none;
 
 }
 
 .header {
-    height: 300px;
-    margin-bottom: 30px;
-    text-align: center;
-    color: #fff;
-    background-color: #505050;
+   height: 300px;
+   margin-bottom: 30px;
+   text-align: center;
+   color: #fff;
+   background-color: #505050;
 }
+
 h1 {
-    font-size: 3rem;
-    padding: 40px 0 10px 0;
+   font-size: 3rem;
+   padding: 40px 0 10px 0;
 }
- .header p{
-    font-size: 2rem;
-    margin-bottom:10px;
- }
 
- .header img {
-    border: solid 10px #fff;
-    transform: translateY(5px);
-    width: 200px;
-    border-radius: 50%;
- }
+.header p {
+   font-size: 2rem;
+   margin-bottom: 10px;
+}
 
- main {
-    height: 100vh;
-    background-color: #fafafa;
- }
+.header img {
+   border: solid 10px #fff;
+   transform: translateY(5px);
+   width: 200px;
+   border-radius: 50%;
+}
 
- .seccion {
-    margin: auto;
-    padding: 150px 100px;
-    padding-bottom:50px ;
-    width: 90%;
-    box-shadow:1px 1px 10px #555 ;
-    text-align: center;
- }
- .icons {
-    padding: 20px 0;
-    color: #a1a1a1;
-    font-size: 1.5rem;
- }
- .icons i {
-    margin: 0 5px;
- }
- .seccion article{
-    margin-bottom: 30px;
-    text-align: center;
- }
- .btns button{
-    padding: 10px 10px;
-    background-color: #09bfcc;
-    border: none;
-    color: #fff;
-    margin: 0 10px;
-    cursor: pointer;
-    box-shadow: 1px 1px 7px #555;
- }
- .experience h2 {
-    text-align: center;
-    color: #1a1a1a;
-    padding: 20px 0;
- }
-.container-experience{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-    padding: 50px;
- }
+main {
+   height: 100vh;
+   background-color: #fafafa;
+}
+
+.seccion {
+   margin: auto;
+   padding: 150px 100px;
+   padding-bottom: 50px;
+   width: 90%;
+   box-shadow: 1px 1px 10px #555;
+   text-align: center;
+}
+
+.icons {
+   padding: 20px 0;
+   color: #a1a1a1;
+   font-size: 1.5rem;
+}
+
+.icons i {
+   margin: 0 5px;
+}
+
+.seccion article {
+   margin-bottom: 30px;
+   text-align: center;
+}
+
+.btns button {
+   padding: 10px 10px;
+   background-color: #09bfcc;
+   border: none;
+   color: #fff;
+   margin: 0 10px;
+   cursor: pointer;
+   box-shadow: 1px 1px 7px #555;
+}
+
+.experience h2 {
+   text-align: center;
+   color: #1a1a1a;
+   padding: 20px 0;
+}
+
+.container-experience {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 10px;
+   padding: 50px;
+}
+
 .elements {
-    box-shadow: 1px 1px 7px #555;
+   box-shadow: 1px 1px 7px #555;
 }
- .elements h3{
-    color: #fff;
-    padding: 20px;
-    background-color: #424242;
- }
- .extra-information {
-    padding: 20px;  
- }
 
- .separador-uno{
-    padding: 0 50px;
-    border-right: 2px #09bfcc solid;
- }
+.elements h3 {
+   color: #fff;
+   padding: 20px;
+   background-color: #424242;
+}
 
- .separador-uno .elements {
-    margin-bottom: 30px;
- }
+.extra-information {
+   padding: 20px;
+}
 
- .separador-dos{
-    padding: 0 50px;
- }
+.separador-uno {
+   padding: 0 50px;
+   border-right: 2px #09bfcc solid;
+}
 
- .separador-dos .elements:first-child{
-    transform: translateY(50px);
- }
+.separador-uno .elements {
+   margin-bottom: 30px;
+}
 
- .separador-dos .elements:nth-child(2){
-    transform: translateY(50px);
- }
- 
- .separador-dos .elements {
-    margin-bottom: 30px;
- }
+.separador-dos {
+   padding: 0 50px;
+}
 
- .ultimos-trabajos {
+.separador-dos .elements:first-child {
+   transform: translateY(50px);
+}
+
+.separador-dos .elements:nth-child(2) {
+   transform: translateY(50px);
+}
+
+.separador-dos .elements {
+   margin-bottom: 30px;
+}
+
+.ultimos-trabajos {
    text-align: center;
    margin-top: 50px;
- }
- .btn{
+}
+
+.btn {
    padding: 10px 10px;
    background-color: #09b8cc;
 }
 
- .galeria {
-   display:flex;
+.galeria {
+   display: flex;
    gap: 16px;
    max-width: 32.2%;
 }
@@ -138,10 +151,24 @@ h1 {
    max-width: 100%;
 }
 
-.regresar{
+.regresar {
    text-align: center;
    margin: 50px;
 }
+
 footer {
+   margin-top: 15px;
+  
    text-align: center;
+   color: #fff;
+   
+}
+
+.texto{
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   height: 50px; 
+   background:#424242;
+   color: white;
 }
